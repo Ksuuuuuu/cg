@@ -22,7 +22,7 @@ namespace lab1
         public MainForm()
         {
             InitializeComponent();
-            image = new Bitmap("teksture.jpeg");//? C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\lab1
+            image = new Bitmap(Properties.Resources.teksture);
             ellipse = new Bitmap(width_ellipse+1, height_ellipse+1);
             grafics = Graphics.FromImage(ellipse);
         }
