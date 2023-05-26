@@ -1,0 +1,18 @@
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\3 lab.exe.config
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\3 lab.exe
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\3 lab.pdb
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.FreeGlut.dll
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.OpenGl.dll
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.Platform.Windows.dll
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.FreeGlut.xml
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.OpenGl.xml
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\bin\x86\Debug\Tao.Platform.Windows.xml
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.csproj.AssemblyReference.cache
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\_3_lab.Form1.resources
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\_3_lab.Properties.Resources.resources
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.csproj.GenerateResource.cache
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.csproj.CoreCompileInputs.cache
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.csproj.CopyComplete
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.exe
+C:\Users\Кисюнька\Desktop\учеба\3 курс 2 сем\кг\3 lab\obj\x86\Debug\3 lab.pdb

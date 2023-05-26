@@ -6,12 +6,14 @@ namespace lab1
 {
     public partial class MainForm : Form
     {
+        private static Color Border_Color = Color.Aqua;
+        private static int height_ellipse = 50;
+        private static int width_ellipse = 50;
+
         private Bitmap image;
         private Bitmap ellipse;
-        private Color Border_Color = Color.Aqua;
         private Graphics grafics;
-        private int height_ellipse = 50;
-        private int width_ellipse = 100;
+        
         public MainForm()
         {
             InitializeComponent();
