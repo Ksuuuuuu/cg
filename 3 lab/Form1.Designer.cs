@@ -59,7 +59,7 @@
             this.AnT.DepthBits = ((byte)(16));
             this.AnT.Location = new System.Drawing.Point(2, 12);
             this.AnT.Name = "AnT";
-            this.AnT.Size = new System.Drawing.Size(896, 543);
+            this.AnT.Size = new System.Drawing.Size(896, 602);
             this.AnT.StencilBits = ((byte)(0));
             this.AnT.TabIndex = 0;
             this.AnT.MouseMove += new System.Windows.Forms.MouseEventHandler(this.AnT_MouseMove);
@@ -191,13 +191,14 @@
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(160, 56);
             this.trackBar1.TabIndex = 10;
+            this.trackBar1.Value = 10;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1265, 557);
+            this.ClientSize = new System.Drawing.Size(1265, 664);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.RBox);
             this.Controls.Add(this.CBox);

@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Tao.OpenGl;
 using Tao.FreeGlut;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace _3_lab
 {
@@ -19,8 +12,9 @@ namespace _3_lab
         private double height = 2;
         private double radius = 2;
         private int count_g = 3;
-        private float transparency = 0.8f;
-        private int lightCount = 0;
+        private float transparency = 100f;
+        private int lightIndex = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -31,11 +25,16 @@ namespace _3_lab
         {
             try
             {
+                
                 DataGridViewRow row = Grid.Rows[0];
 
-                if (row.Cells[0].Value != null && row.Cells[1].Value != null && row.Cells[2].Value != null && row.Cells[3].Value != null)
+                if (row.Cells[0].Value != null && 
+                    row.Cells[1].Value != null && 
+                    row.Cells[2].Value != null && 
+                    row.Cells[3].Value != null)
                 {
-                    int lightIndex = Gl.GL_LIGHT0 + lightCount;
+                    //Gl.glDisable(Gl.GL_LIGHT0);
+                    lightIndex = Gl.GL_LIGHT0;
                     Gl.glEnable(lightIndex);
 
                     float[] position =
@@ -56,7 +55,7 @@ namespace _3_lab
                             };
                     Gl.glLightfv(lightIndex, Gl.GL_DIFFUSE, color);
 
-                    lightCount++;
+                    //lightCount++;
                 }
             }
             catch (Exception)
@@ -68,7 +67,7 @@ namespace _3_lab
         private void Form1_Load(object sender, EventArgs e)
         {
             Glut.glutInit();
-            Glut.glutInitDisplayMode(Glut.GLUT_RGB | Glut.GLUT_DOUBLE | Glut.GLUT_DEPTH);
+            Glut.glutInitDisplayMode(Glut.GLUT_RGBA | Glut.GLUT_DOUBLE | Glut.GLUT_DEPTH | Glut.GLUT_ALPHA);
 
             Gl.glClearColor(0, 0, 0, 1);
 
@@ -91,7 +90,7 @@ namespace _3_lab
         {
             Gl.glClear(Gl.GL_COLOR_BUFFER_BIT | Gl.GL_DEPTH_BUFFER_BIT);
             Gl.glLoadIdentity();
-            Gl.glColor4f(3,3,3, transparency); //цвет
+            Gl.glColor4f(3, 3, 3, transparency); //цвет
 
             Gl.glPushMatrix();
             Gl.glTranslated(0, 0, -20);
